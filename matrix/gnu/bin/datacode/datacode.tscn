@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyodubl2ktyc7"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_clqf0"]
+
+[node name="Control" type="Control" node_paths=PackedStringArray("shortcut_context")]
+process_priority = 512
+process_physics_priority = 512
+process_thread_group = 1
+process_thread_group_order = 512
+process_thread_messages = 3
+show_behind_parent = true
+top_level = true
+clip_children = 2
+y_sort_enabled = true
+material = SubResource("CanvasItemMaterial_clqf0")
+use_parent_material = true
+clip_contents = true
+layout_mode = 3
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath(".")
+focus_next = NodePath(".")
+focus_previous = NodePath(".")
+focus_mode = 2
+shortcut_context = NodePath(".")
